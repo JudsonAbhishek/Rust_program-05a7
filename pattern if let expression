@@ -1,7 +1,7 @@
 fn main() {
-    let a = ("Karumuri", "Surya Prakash","CSE");
+    let a = ("judson", "Abhishek","CSE");
 
-    if let ("Karumuri", "Surya Prakash","CSE") = a {
+    if let ("judson", "Abhishek","CSE") = a {
         println!("Wrote all values in pattern to be matched with the scrutinee expression");
     } else {
      
